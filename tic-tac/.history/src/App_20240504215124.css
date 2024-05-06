@@ -1,0 +1,44 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(90, 99, 116);
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 180px);
+  grid-gap: 10px;
+  justify-content: center;
+}
+
+.square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 180px;
+  width: 180px;
+  background: #034464;
+  border: 4px solid #0f1b21;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.re-button {
+  padding: 15px 30px;
+  font-size: 18px;
+  color: white;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #1f3540;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  outline: none;
+}
+
